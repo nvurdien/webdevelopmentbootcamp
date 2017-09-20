@@ -1,0 +1,7 @@
+<h1>The posts page</h1>
+
+<ul>
+<% posts.forEach(function(element){ %>
+    <li><%= element.title %> - <strong><%= element.author %></strong></li>
+<% }) %>
+</ul>
